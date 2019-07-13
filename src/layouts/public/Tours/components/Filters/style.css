@@ -1,0 +1,21 @@
+section.filters {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eee;
+}
+
+.react-datepicker__input-container {
+    width: 100%;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+section.filters .form-group {
+    z-index: 3;
+}

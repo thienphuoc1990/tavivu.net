@@ -1,0 +1,36 @@
+.banner-slider .carousel-inner .carousel-item {
+    max-height: 550px;
+}
+
+.banner-slider .carousel-caption {
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.banner-slider {
+    position: relative;
+}
+
+.banner-slider .overlay-section {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+}
+
+.carousel-caption {
+    right: 10%;
+    bottom: 0px;
+    left: 10%;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.carousel-caption h3 {
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 30px;
+}

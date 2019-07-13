@@ -1,0 +1,36 @@
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.contact-info .icon {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    background-color: #ff891e;
+    color: #ffffff;
+    padding-right: 0;
+    margin-right: 25px;
+    font-size: 35px;
+    float: left;
+}
+
+.contact-info .info p {
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.contact-info .info p.title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 0px;
+    color: #777;
+}

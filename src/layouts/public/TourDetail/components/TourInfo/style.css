@@ -1,0 +1,39 @@
+section.tour-infos {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.tour-infos .info {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.tour-infos .infos ul.tour-attractions {
+    list-style-type: square;
+}
+
+.tour-prices .info-group {
+    margin-bottom: 5px;
+    display: flex;
+    width: 100%;
+}
+
+.tour-prices .info-group .info-label {
+    width: 40%;
+}
+
+.tour-prices .info-group .info-content {
+    width: 60%;
+}
+
+.tour-prices button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tour-prices {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}

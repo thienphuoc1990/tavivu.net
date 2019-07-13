@@ -1,0 +1,15 @@
+.bt-gallery {
+    width: 100%;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.bt-gallery .col, .bt-gallery .bt-gallery .col-1, .bt-gallery .col-10, .bt-gallery .col-11, .bt-gallery .col-12, .bt-gallery .col-2, .bt-gallery .col-3, .bt-gallery .col-4, .bt-gallery .col-5, .bt-gallery .col-6, .bt-gallery .col-7, .bt-gallery .col-8, .bt-gallery .col-9, .bt-gallery .col-auto, .bt-gallery .col-lg, .bt-gallery .col-lg-1, .bt-gallery .col-lg-10, .bt-gallery .col-lg-11, .bt-gallery .col-lg-12, .bt-gallery .col-lg-2, .bt-gallery .col-lg-3, .bt-gallery .col-lg-4, .bt-gallery .col-lg-5, .bt-gallery .col-lg-6, .bt-gallery .col-lg-7, .bt-gallery .col-lg-8, .bt-gallery .col-lg-9, .bt-gallery .col-lg-auto, .bt-gallery .col-md, .bt-gallery .col-md-1, .bt-gallery .col-md-10, .bt-gallery .col-md-11, .bt-gallery .col-md-12, .bt-gallery .col-md-2, .bt-gallery .col-md-3, .bt-gallery .col-md-4, .col-md-5, .bt-gallery .bt-gallery .col-md-6, .bt-gallery .col-md-7, .bt-gallery .col-md-8, .bt-gallery .col-md-9, .bt-gallery .col-md-auto, .bt-gallery .col-sm, .bt-gallery .col-sm-1, .bt-gallery .col-sm-10, .bt-gallery .col-sm-11, .bt-gallery .col-sm-12, .bt-gallery .col-sm-2, .bt-gallery .col-sm-3, .bt-gallery .col-sm-4, .bt-gallery .col-sm-5, .bt-gallery .col-sm-6, .bt-gallery .col-sm-7, .bt-gallery .col-sm-8, .bt-gallery .col-sm-9, .bt-gallery .col-sm-auto, .bt-gallery .col-xl, .bt-gallery .col-xl-1, .bt-gallery .col-xl-10, .bt-gallery .col-xl-11, .bt-gallery .col-xl-12, .bt-gallery .col-xl-2, .bt-gallery .col-xl-3, .bt-gallery .col-xl-4, .bt-gallery .col-xl-5, .bt-gallery .col-xl-6, .bt-gallery .col-xl-7, .bt-gallery .col-xl-8, .bt-gallery .col-xl-9, .bt-gallery .col-xl-auto{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.popular-place-wrapper .overlay-section .place-caption ul {
+    list-style-type: none;
+    padding-left: 0;
+}

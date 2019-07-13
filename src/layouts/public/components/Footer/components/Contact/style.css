@@ -1,0 +1,9 @@
+footer section.contact p {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+footer section.contact p span {
+    font-weight: 700;
+    margin-right: 5px;
+}

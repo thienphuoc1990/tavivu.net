@@ -1,0 +1,8 @@
+.ReactGridGallery_tile-viewport {
+    background-size: cover;
+    background-position: center center;
+}
+
+.ReactGridGallery_tile-viewport img {
+    display: none;
+}

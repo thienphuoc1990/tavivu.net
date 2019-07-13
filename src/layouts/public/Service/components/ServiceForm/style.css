@@ -1,0 +1,17 @@
+form.form-service {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form.form-service .form-control {
+    margin-bottom: 15px;
+}
+
+form.form-service .form-submit {
+    margin-top: 15px;
+    text-align: right;
+}
+
+form.form-service .service-options {
+    margin-bottom: 15px;
+}

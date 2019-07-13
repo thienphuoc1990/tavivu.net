@@ -1,0 +1,48 @@
+#top-header {
+    background: rgba(0, 114, 188, 0.5);
+    height: 32px;
+}
+
+#top-header a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+#top-header a:hover {
+    color: #ff891e;
+}
+
+#top-header ul.horiz-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#top-header ul.horiz-list.horiz-left li {
+    float: left;
+    margin-right: 20px;
+}
+
+#top-header ul.horiz-list.horiz-left li:last-child {
+    margin-right: 0;
+}
+
+#top-header ul.horiz-list.horiz-right li {
+    float: right;
+    margin-left: 20px;
+}
+
+#top-header ul.horiz-list.horiz-right li:last-child {
+    margin-left: 0;
+}
+
+#top-header ul.horiz-list li i {
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+header.light-header div#top-header {
+    display: none;
+}

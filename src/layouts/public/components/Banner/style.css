@@ -1,0 +1,14 @@
+.top-banner {
+    padding-top: 150px;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-banner .overlay-section .title {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 25px 15px;
+    border-radius: 5px;
+}

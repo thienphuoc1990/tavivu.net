@@ -1,0 +1,8 @@
+section.google-map .map-wrapper {
+    position: relative;
+    height: 300px;
+}
+
+section.google-map {
+    padding-bottom: 0;
+}

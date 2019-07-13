@@ -1,0 +1,91 @@
+nav#main-header {
+    margin-top: 32px;
+    background-color: rgba(255, 255, 255, .5)!important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255,255,255,0.7);
+}
+
+header.light-header .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+nav#main-header .navbar-brand a {
+    color: rgba(0, 0, 0, .9);
+    text-transform: uppercase;
+}
+
+nav#main-header  .navbar-nav a {
+    color: rgba(0, 0, 0, .9);
+    text-transform: uppercase;
+    position: relative;
+    padding: 15px 0 7px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 0 5px 10px 5px;
+    font-weight: 700;
+}
+
+.navbar-nav > a:after {
+    content: "";
+    height: 3px;
+    left: 0;
+    bottom: -3px;
+    width: 0px;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ff891e;
+}
+
+nav#main-header  .navbar-nav a:hover {
+    color: #ff891e !important;
+}
+
+.navbar-nav > a:hover:after {
+    width: 100%;
+}
+
+header.light-header nav#main-header {
+    margin-top: 0px !important;    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff!important;
+    padding: 0;
+}
+
+header.light-header nav#main-header .navbar-brand a {
+    color: #000;
+}
+
+header.light-header nav#main-header .navbar-nav a {
+    color: #000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand img {
+    max-width: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand img {
+        max-width: 80px;
+    }
+
+    nav#main-header {
+        background-color: rgba(0, 0, 0, .5)!important;
+    }
+}

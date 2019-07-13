@@ -1,0 +1,32 @@
+footer section.top {
+  padding: 20px 0;
+  background: #2F4858;
+  color: #fff;
+}
+
+footer section.top section {
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+footer section.bottom {
+  text-align: center;
+  font-size: 14px;
+}
+
+footer section.bottom p {
+  margin-bottom: 5px;
+}
+
+footer section.bottom p span {
+  font-weight: 600;
+}
+
+footer section.bottom p.company-name span {
+  text-transform: uppercase;
+}
+
+footer section.bottom .proof-image img {
+    width: 200px;
+}

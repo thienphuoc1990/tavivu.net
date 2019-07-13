@@ -1,0 +1,23 @@
+.loading-indicator {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    padding: 50%;
+    padding-top: 200px;
+    background: rgba(0,0,0,0.7);
+}
+
+@media screen and (max-width: 767px) {
+    .loading-indicator {
+        padding: 45%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .loading-indicator {
+        padding: 47%;
+    }
+}

@@ -1,0 +1,23 @@
+footer section.links ul.list-links {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 0;
+}
+
+footer section.links ul.list-links li {
+    margin-bottom: 7px;
+}
+
+footer section.links ul.list-links li:last-child {
+    margin-bottom: 0;
+}
+
+footer section.links ul.list-links li a {
+    color: #fff;
+}
+
+footer section.links ul.list-links li a:hover {
+    color: #ff891e;
+}

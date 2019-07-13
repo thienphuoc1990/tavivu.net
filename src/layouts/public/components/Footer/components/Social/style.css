@@ -1,0 +1,43 @@
+footer section.social {
+    margin-bottom: 30px;
+}
+
+footer section.social ul.list-icon {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+footer section.social ul.list-icon li {
+    float: left;
+    margin-right: 10px;
+}
+
+footer section.social ul.list-icon li:last-child {
+    margin-right: 0;
+}
+
+footer section.social ul.list-icon a.facebook {
+    color: #0056b3;
+}
+
+footer section.social ul.list-icon a.google {
+    color: #DB524A;
+}
+
+footer section.social ul.list-icon a.twitter {
+    color: #00ACED;
+}
+
+footer section.social ul.list-icon a.youtube {
+    color: #D12F2F;
+}
+
+footer section.social ul.list-icon a {
+    color: #fff!important;
+}
+
+footer section.social ul.list-icon a:hover {
+    color: #ff891e!important;
+}

@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+section.odd {
+  background: #F1F1F1;
+}
+
+section {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+section.banner-slider {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.tink-color-orange {
+  color: #ff891e !important;
+}
+
+.brand-color {
+  color: #e04f67 !important;
+}
+
+.btn-outline-tink-orange {
+  color: #ff891e;
+  border-color: #ff891e;
+}
+
+.btn-outline-tink-orange:not(:disabled):not(.disabled).active, .btn-outline-tink-orange:not(:disabled):not(.disabled):active, .show>.btn-outline-tink-orange.dropdown-toggle {
+  color: #fff;
+  background-color: #ff891e;
+  border-color: #ff891e;
+}
+
+.btn-outline-tink-orange:hover {
+  color: #fff;
+  background-color: #ff891e;
+  border-color: #ff891e;
+}
+
+.btn-outline-tink-pink {
+  color: #e04f67;
+  border-color: #e04f67;
+}
+
+.btn-outline-tink-pink:not(:disabled):not(.disabled).active, .btn-outline-tink-pink:not(:disabled):not(.disabled):active, .show>.btn-outline-tink-pink.dropdown-toggle {
+  color: #fff;
+  background-color: #e04f67;
+  border-color: #e04f67;
+}
+
+.btn-outline-tink-pink:hover {
+  color: #fff;
+  background-color: #e04f67;
+  border-color: #e04f67;
+}
+
+section.main-content {
+  padding-top: 30px;
+}
+
+.btn-tink-orange {
+  color: #fff;
+  background-color: #ff891e;
+}
+
+.btn-tink-orange:not(:disabled):not(.disabled).active, .btn-tink-orange:not(:disabled):not(.disabled):active, .show>.btn-tink-orange.dropdown-toggle {
+  border-color: #fa7b05;
+}
+
+.btn-tink-orange:hover {
+  background-color: #fa7b05;
+}
+
+.container {
+  max-width: 1250px;
+}

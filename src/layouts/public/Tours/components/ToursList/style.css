@@ -1,0 +1,8 @@
+.display-icon button {
+    background: transparent;
+    border: 0;
+}
+
+.display-icon button.active {
+    color: #ff891e;
+}
