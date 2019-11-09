@@ -20,6 +20,7 @@ class MainHeader extends Component {
                                 <Nav><Link to="/tours-trong-nuoc">Tours trong nước</Link></Nav>
                                 <Nav><Link to="/tours-quoc-te">Tours quốc tế</Link></Nav>
                                 <Nav><Link to="/dich-vu">Dịch vụ</Link></Nav>
+                                <Nav><Link to="/bai-viet">Bài viết</Link></Nav>
                                 <Nav><Link to="/hinh-anh">Hình ảnh</Link></Nav>
                                 <Nav><Link to="/lien-he">Liên hệ</Link></Nav>
                             </Nav>

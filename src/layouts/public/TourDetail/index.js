@@ -123,7 +123,7 @@ class TourDetail extends Component {
             </Tab.Container>
             </Container>
             {this.state.data ? <TourDetails data={this.state.data.datatable} /> : null}
-            {this.state.data ? <OrderTour tour={this.state.data.tour} /> : null}
+            {this.state.data ? ( this.state.data.tour.active === 1 ? <OrderTour tour={this.state.data.tour} /> : null ) : null }
             {this.state.data ? <GridTours tours={this.state.data.suggested_tours} /> : null}
             </Fragment>
             );

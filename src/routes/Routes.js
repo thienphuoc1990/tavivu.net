@@ -12,6 +12,8 @@ const InternationalTours = lazy(() => import('../layouts/public/Tours/internatio
 const TourDetail = lazy(() => import('../layouts/public/TourDetail/index'));
 const Service = lazy(() => import('../layouts/public/Service/index'));
 const Images = lazy(() => import('../layouts/public/Images/index'));
+const Posts = lazy(() => import('../layouts/public/Posts/index'));
+const PostDetail = lazy(() => import('../layouts/public/PostDetail/index'));
 
 class Routes extends Component {
     render() {
@@ -27,6 +29,8 @@ class Routes extends Component {
                     <Route path="/dich-vu" exact component={Service} />
                     <Route path="/thong-tin/:page" exact component={Page} />
                     <Route path="/hinh-anh" exact component={Images} />
+                    <Route path="/bai-viet" exact component={Posts} />
+                    <Route path="/bai-viet/:post" exact component={PostDetail} />
                     <Route component={WIP} />
                 </Switch>
             </Suspense>
