@@ -14,7 +14,7 @@ class TourPolicies extends Component {
                 <Container>
                     <Row>
                         <Col>
-                            <div className="content">{renderHTML(this.state.tour.tour_policies)}</div>
+                            <div className="content">{(this.state.tour.tour_policies) ? renderHTML(this.state.tour.tour_policies) : null}</div>
                         </Col>
                     </Row>
                 </Container>

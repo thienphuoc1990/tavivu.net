@@ -33,7 +33,7 @@ class TourInfo extends Component {
                                 </div>
                                 <div className="info">
                                     <span className="text-uppercase">Tour này có gì hay: </span>
-                                    {renderHTML(this.state.tour.tour_attractions)}
+                                    { (this.state.tour.tour_attractions) ? renderHTML(this.state.tour.tour_attractions) : null}
                                 </div>
                             </div>
                         </Col>
