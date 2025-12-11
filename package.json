@@ -18,7 +18,7 @@
     "react-photo-gallery": "^8.0.0",
     "react-render-html": "^0.6.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-scrolllock": "^4.0.1",
     "react-select": "^2.4.3",
     "sweetalert-react": "^0.4.11"
